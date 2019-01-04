@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+      html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      }
+
+    #map { height: 70%; width: 100%; margin: 0; padding: 0; overflow: hidden; }
+
+ </style>
+</head>
+  <body>
+    <br><br><br>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md">
+        <div id="map" ></div>
+        <h3>Conflicts in <%= @country_raw[2]%></h3>
+      </div>
+      
+
+              <div class="col-md"> Country Information.
+                <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Data Type</th>
+                    <th scope="col">Country Details</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Population</td>
+                    <td><%= @country_raw[3]%></td>
+                  </tr>
+                  <tr>
+                      <th scope="row"></th>
+                    <td>GDP</td>
+                    <td><%= @country_raw[4]%></td>
+                  </tr>
+                  <tr>
+                      <th scope="row"></th>
+                    <td>Economy Type</td>
+                    <td><%= @country_raw[5]%></td>
+                  </tr>
+                  <tr>
+                      <th scope="row"></th>
+                    <td>Income Level</td>
+                    <td><%= @country_raw[6]%></td>
+                  </tr>
+                  <tr>
+                      <th scope="row"></th>
+                    <td>Region</td>
+                    <td><%= @country_raw[7]%></td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+      </div>
+    <script>
+
+      function initMap() {
+
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat:<%= @country_raw[9]%> , lng: <%= @country_raw[8]%>},
+          zoom: 6,
+
+        });//
+
+
+        var mapStyle = [{
+            'featureType': 'all',
+            'elementType': 'all',
+            'stylers': [{'visibility': 'off'}]
+          }, {
+            'featureType': 'landscape',
+            'elementType': 'geometry',
+            'stylers': [{'visibility': 'on'}, {'color': '#fcfcfc'}]
+          }, {
+            'featureType': 'water',
+            'elementType': 'labels',
+            'stylers': [{'visibility': 'off'}]
+          }, {
+            'featureType': 'water',
+            'elementType': 'geometry',
+            'stylers': [{'visibility': 'on'}, {'hue': '#5f94ff'}, {'lightness': 60}]
+          }];
+
+
+        <% @clash_data.each do |c| %>
+
+
+
+
+                 var marker = new google.maps.Marker({
+                 position: {lat: <%= c.lat %>, lng: <%= c.lon %>},
+                 map: map,
+                 icon: {
+           		  url: "/flag.png",
+           		  scaledSize: new google.maps.Size(15, 15),
+                // animation:google.maps.Animation.DROP
+               }});
+
+
+      <% end %>
+}
+
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXw9tFp-fQLKJtwb4F3-BVDx4XQZbj8vk&callback=initMap">
+    </script>
+  </body>
+</html>

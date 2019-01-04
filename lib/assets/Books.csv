@@ -1,0 +1,61 @@
+book_id,isbn,authors,original_publication_year,title,region,average_rating,price,image_url
+144,1400064163,Laura Hillenbrand,2010,"Unbroken: A World War II Story of Survival, Resilience, and Redemption",Asia,4.4,8.00,https://images.gr-assets.com/books/1327861115m/8664353.jpg
+403,1590302257,"Sun Tzu, Thomas Cleary",-500,The Art of War,Asia,3.95,9.00,https://images.gr-assets.com/books/1453417993m/10534.jpg
+498,192833987,"Leo Tolstoy, Henry Gifford, Aylmer Maude, Louise Maude",1869,War and Peace,Europe,4.11,10.00,https://images.gr-assets.com/books/1413215930m/656.jpg
+2482,057506708X,"Szpilman, Anthea Bell",1946,"The Pianist: The Extraordinary Story of One Man's Survival in Warsaw, 1939Ã¢â‚¬â€œ45",Europe,4.24,8.50,https://images.gr-assets.com/books/1491050715m/128066.jpg
+4332,140440399,"Thucydides, Rex Warner, Moses I. Finley",-411,History of the Peloponnesian War,Europe,3.87,9.00,https://images.gr-assets.com/books/1422072332m/261243.jpg
+4904,034547581X,"Harold G. Moore, Joseph L. Galloway",1991,We Were Soldiers Once... and Young: Ia Drang - The Battle that Changed the War in Vietnam,Asia,4.29,11.50,https://images.gr-assets.com/books/1328912889m/42512.jpg
+5604,067975833X,Tony Horwitz,1998,Confederates in the Attic: Dispatches from the Unfinished Civil War,Europe,4.08,7.50,https://images.gr-assets.com/books/1428284996m/38855.jpg
+6231,1928378987,"Bill O'Reilly, Martin Dugard",2014,Killing Patton: The Strange Death of World War II's Most Audacious General,Americas,4.08,5.50,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+6371,345481305,Naomi Novik,2006,"Black Powder War (Temeraire, #3)",Europe,3.9,7.50,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+6564,446556246,Sebastian Junger,2010,War,Middle East,4.22,9.00,https://images.gr-assets.com/books/1344271278m/7519640.jpg
+6668,553268465,Frederick Forsyth,1974,The Dogs of War,Africa,3.96,10.00,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+6892,99595818,George Saunders,1996,CivilWarLand in Bad Decline,Americas,4.22,11.00,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+7046,042520040X,Evan Wright,2004,"Generation Kill: Devil Dogs, Iceman, Captain America, and the New Face of American War",Americas,4.25,12.00,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+7569,805062882,Rick Atkinson,2002,"An Army at Dawn: The War in North Africa, 1942-1943 (World War II Liberation Trilogy, #1)",Africa,4.25,15.00,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+7775,451200829,John Jakes,1984,"Love and War (North and South, #2)",Americas,4.1,5.50,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+8943,162779073X,Glenn Greenwald,2014,"No Place to Hide: Edward Snowden, the NSA, and the U.S. Surveillance State",Americas,4.08,7.50,https://images.gr-assets.com/books/1383352779m/18213403.jpg
+9222,143034669,Steve Coll,2004,"Ghost Wars: The Secret History of the CIA, Afghanistan, and bin Laden from the Soviet Invasion to September 10, 2001",Middle East,4.28,8.50,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+9443,1573451991,Dean Hughes,1997,"Rumors of War (Children of the Promise, #1)",Americas,4.25,9.00,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+9522,425208133,"Dick Winters, Cole C. Kingseed",2006,Beyond Band of Brothers: The War Memoirs of Major Dick Winters,Europe,4.24,11.00,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+9604,038553292X,Scott Anderson,2013,"Lawrence in Arabia: War, Deceit, Imperial Folly, and the Making of the Modern Middle East",Middle East,4.12,12.00,https://images.gr-assets.com/books/1363837257m/17262206.jpg
+10000,375700455,John Keegan,1998,The First World War,Europe,4,18.00,https://images.gr-assets.com/books/1403194704m/8914.jpg
+14,452284244,George Orwell,1945,Animal Farm,Europe,3.87,14.00,https://images.gr-assets.com/books/1424037542m/7613.jpg
+113,684833395,Joseph Heller,1961,Catch-22,Americas,3.98,9.50,https://images.gr-assets.com/books/1463157317m/168668.jpg
+131,142000663,John Steinbeck,1939,The Grapes of Wrath,Americas,3.92,10.50,https://images.gr-assets.com/books/1352912927m/4395.jpg
+301,1892295490,Joseph Conrad,1899,Heart of Darkness,Africa,3.42,12.00,https://images.gr-assets.com/books/1392799983m/4900.jpg
+401,99910101,Ernest Hemingway,1929,A Farewell to Arms,Europe,3.79,4.50,https://images.gr-assets.com/books/1313714836m/10799.jpg
+408,739467352,Jared Diamond,1997,"Guns, Germs, and Steel: The Fates of Human Societies",Europe,4,9.50,https://images.gr-assets.com/books/1453215833m/1842.jpg
+479,937832383,"NiccolÃƒÂ² Machiavelli, Adolph Caso, Rufus Goodwin, Benjamin Martinez",1513,The Prince,Europe,3.78,11.30,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+663,60838655,Howard Zinn,1980,A People's History of the United States,Americas,4.07,12.30,https://images.gr-assets.com/books/1494279423m/2767.jpg
+772,140449140,"Plato, Desmond Lee",-380,The Republic,Europe,3.9,14.50,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+1006,62107062,"Chris Kyle, Scott McEwen, Jim DeFelice",2012,American Sniper: The Autobiography of the Most Lethal Sniper in U.S. Military History,Middle East,3.97,15.50,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+1241,805093079,"Bill O'Reilly, Martin Dugard",2011,Killing Lincoln: The Shocking Assassination that Changed America Forever,Americas,4.02,16.50,https://images.gr-assets.com/books/1317793681m/10587120.jpg
+1404,679456724,Robert K. Massie,2011,Catherine the Great: Portrait of a Woman,Europe,3.91,14.00,https://images.gr-assets.com/books/1403395276m/10414941.jpg
+1643,394298667,Tom Clancy,1986,Red Storm Rising,Europe,4.14,15.00,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+2724,679721037,John Hersey,1946,Hiroshima,Asia,3.94,10.00,https://images.gr-assets.com/books/1499717742m/27323.jpg
+2834,345476093,"Barbara W. Tuchman, Robert K. Massie",1962,The Guns of August,Europe,4.18,8.00,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+3720,451528816,"Alexander Hamilton, James Madison, John Jay, Philo-Publius, Clinton Rossiter, Charles R. Kessler",1787,The Federalist Papers,Americas,4.05,9.00,https://images.gr-assets.com/books/1327865541m/110331.jpg
+3868,140449272,"Plato, Christopher Gill",-385,The Symposium,Europe,4.01,10.00,https://images.gr-assets.com/books/1359922039m/81779.jpg
+3930,140449493,"Aristotle, J.A.K. Thomson, Jonathan Barnes, Hugh Tredennick",-350,The Nicomachean Ethics,Europe,3.91,8.50,https://images.gr-assets.com/books/1472992134m/19068.jpg
+3948,743484878,"William Shakespeare, Barbara A. Mowat, Paul Werstine",1599,Henry V,Europe,3.87,9.00,https://images.gr-assets.com/books/1331563646m/37526.jpg
+3949,486414248,Aristotle,-350,Politics,Europe,3.91,11.50,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+4071,393301583,"Sigmund Freud, James Strachey, Peter Gay",1930,Civilization and Its Discontents,Europe,3.76,7.50,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+4399,395083621,Adolf Hitler,1925,Mein Kampf,Europe,3.13,5.50,https://images.gr-assets.com/books/1395618385m/54270.jpg
+4684,553585975,Adam Smith,1776,The Wealth of Nations,Europe,3.87,7.50,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+4731,055338368X,Steven Pressfield,1998,Gates of Fire: An Epic Novel of the Battle of Thermopylae,Europe,4.4,9.00,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+5376,1557091528,Founding Fathers,1787,The Constitution of the United States of America,Americas,4.54,10.00,https://images.gr-assets.com/books/1328756752m/89959.jpg
+5540,743482859,"William Shakespeare, Cynthia Marshall, Barbara A. Mowat, Paul Werstine",1606,Antony and Cleopatra,Africa,3.67,11.00,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+5885,684848015,Stephen E. Ambrose,1997,Citizen Soldiers: The U. S. Army from the Normandy Beaches to the Bulge to the Surrender of Germany,Europe,4.19,12.00,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+6173,140447601,"Alexis de Tocqueville, Isaac Kramnick, Gerald Bevan",1835,Democracy in America ,Americas,3.99,15.00,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+6249,1401203140,"Brian K. Vaughan, Niko Henrichon",2006,Pride of Baghdad,Middle East,3.88,5.50,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+6799,812996348,Sara NoviÃ„â€¡,2015,Girl at War,Europe,3.98,7.50,https://images.gr-assets.com/books/1414348859m/23209971.jpg
+7543,1897299214,Guy Delisle,2003,Pyongyang: A Journey in North Korea,Asia,3.93,8.50,https://images.gr-assets.com/books/1327884533m/80834.jpg
+7844,60198818,Ramachandra Guha,2007,India After Gandhi: The History of the World's Largest Democracy,Asia,4.34,9.00,https://images.gr-assets.com/books/1500471959m/356824.jpg
+8382,006054094X,Gavin Menzies,2002,1421: The Year China Discovered America,Asia,3.58,11.00,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+8523,60007761,"Aleksandr Solzhenitsyn, Edward E. Ericson Jr.",1973,The Gulag Archipelago 1918-1956,Europe,4.15,12.00,https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+8863,449214729,Alistair MacLean,1957,The Guns of Navarone,Europe,4.12,18.00,https://images.gr-assets.com/books/1381683551m/296298.jpg
+9078,039474067X,Edward Said,1978,Orientalism,Middle East,4.07,14.00,https://images.gr-assets.com/books/1409777781m/355190.jpg
+9386,385721811,Julie Otsuka,2002,When the Emperor Was Divine,Americas,3.7,9.50,https://images.gr-assets.com/books/1368314069m/764073.jpg
+9407,553248642,Leon Uris,1984,The Haj,Middle East,3.99,10.50,https://images.gr-assets.com/books/1359743182m/42691.jpg
+9810,399153942,Frederick Forsyth,2006,The Afghan,Middle East,3.64,12.00,https://images.gr-assets.com/books/1309198395m/109509.jpg

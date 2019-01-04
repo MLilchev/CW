@@ -1,0 +1,43 @@
+a5df88a	Maksim Lilchev	Sun Dec 16 13:51:44 2018	before last push
+2279a8e	Maksim Lilchev	Sun Dec 16 09:52:49 2018	book fix
+9d2c4ce	Maksim Lilchev	Sun Dec 16 07:59:38 2018	js fixed
+41e6659	Maksim Lilchev	Sun Dec 16 06:38:50 2018	js test
+78f85c5	Maksim Lilchev	Sun Dec 16 06:03:53 2018	cart fix
+af19d10	Maksim Lilchev	Sat Dec 15 05:48:12 2018	seed3
+3d35e0f	Maksim Lilchev	Sat Dec 15 05:45:44 2018	seed2
+2efc218	Maksim Lilchev	Sat Dec 15 05:39:39 2018	seed1
+d43b6d2	Maksim Lilchev	Sat Dec 15 05:30:39 2018	seed
+01bc012	Maksim Lilchev	Sat Dec 15 04:38:43 2018	test
+fb0c75d	Maksim Lilchev	Sat Dec 15 04:34:42 2018	submit discarded
+8aeb247	Maksim Lilchev	Sat Dec 15 03:18:42 2018	shopping cart almost done
+68a689d	Maksim Lilchev	Fri Dec 14 21:17:20 2018	authentication
+e576bff	Maksim Lilchev	Fri Dec 14 03:26:34 2018	minor fix
+b0632a8	Maksim Lilchev	Fri Dec 14 03:24:50 2018	vis2 complete
+01f1d91	Maksim Lilchev	Thu Dec 13 22:02:16 2018	first graph
+aad2428	Maksim Lilchev	Thu Dec 13 17:57:03 2018	pinmapv2 complete
+e6e4d7c	Maksim Lilchev	Thu Dec 13 17:42:41 2018	homepage
+0848640	Maksim Lilchev	Thu Dec 13 17:27:52 2018	homepage v2
+2711b8c	Maksim Lilchev	Thu Dec 13 17:14:22 2018	homepage v1
+fc39836	Maksim Lilchev	Thu Dec 13 03:09:22 2018	tabledata complete
+1e8155e	Maksim Lilchev	Thu Dec 13 01:46:02 2018	completed show
+5755310	Maksim Lilchev	Wed Dec 12 23:57:00 2018	map animations
+8f5685f	Maksim Lilchev	Wed Dec 12 22:34:40 2018	markers fixed
+dd7467b	Maksim Lilchev	Wed Dec 12 21:39:34 2018	test4
+4861be9	Maksim Lilchev	Wed Dec 12 21:35:37 2018	test3
+5e6069a	Maksim Lilchev	Wed Dec 12 21:32:49 2018	test2
+f402f58	Maksim Lilchev	Wed Dec 12 21:23:37 2018	test
+bef0efd	Maksim Lilchev	Wed Dec 12 19:35:40 2018	heatmap1.0
+4016472	Maksim Lilchev	Wed Dec 12 18:18:19 2018	pinmap complete
+bc2516c	Maksim Lilchev	Wed Dec 12 16:13:57 2018	final db
+ee47b07	Maksim Lilchev	Wed Dec 12 05:20:45 2018	database seeded
+e6818c5	Maksim Lilchev	Wed Dec 12 00:06:27 2018	continuous integration working
+18d0749	Maksim Lilchev	Tue Dec 11 17:59:01 2018	db5
+cbeb85a	Maksim Lilchev	Tue Dec 11 17:44:26 2018	db4
+7e710cf	Maksim Lilchev	Tue Dec 11 17:33:08 2018	db3
+bfee1f1	Maksim Lilchev	Tue Dec 11 17:29:43 2018	database test2
+cd5ea3f	Maksim Lilchev	Tue Dec 11 17:21:19 2018	database test1
+9f3dd34	Maksim Lilchev	Tue Dec 11 17:15:23 2018	database test
+82d1281	Maksim Lilchev	Tue Dec 11 17:13:17 2018	database.yml changed
+db4a6f4	Maksim Lilchev	Fri Nov 2 14:15:09 2018	pipeline setup
+980f62d	Maksim Lilchev	Thu Nov 1 20:21:03 2018	heroku deploy
+cc2a171	Maksim Lilchev	Thu Nov 1 20:06:18 2018	inital commit

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+
+<style>
+
+
+      html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      }
+
+
+    #map { height: 70%; width: 100%; margin: 0; padding: 0; overflow: hidden; }
+ </style>
+</head>
+  <body>
+    <br><br>
+    <center>
+    <h style="font-size: 50px;" >Conflicts by Country</h>
+    </center>
+     <div class="container-fluid">
+      <div class="row">
+        <div class="col-md">
+        <div id="map" ></div>
+      </div>
+              <div class="col-md">
+
+                  <div class="row pagination">
+                    <table id="events" class="table table-md table-bordered border"> <!--class="table table-md table-bordered border">-->
+                    <thead class="thead-light">
+                        <tr>
+                            <th class="text-center text-nowrap">Conflict ID</th>
+                            <th class="text-center text-nowrap">Conflict Name</th>
+                            <th>Country</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% @conflict_data.each do |cd| %>
+                          <tr>
+                            <td class="text-center text-nowrap page-item"><%= cd.conflict_new_id %></td>
+                            <td class="text-center text-nowrap page-item"><%= cd.conflict_name %></td>
+                            <td class="text-center text-nowrap page-item"><%= cd.country %></a></td>
+                          </tr>
+                        <% end %>
+
+                    </tbody>
+                    </table>
+                    </div>
+
+              </div>
+      </div>
+
+    <script>
+
+      function initMap() {
+          map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 15, lng: 25},
+          zoom: 3,
+
+
+        });
+
+        var mapStyle = [{
+            'featureType': 'all',
+            'elementType': 'all',
+            'stylers': [{'visibility': 'off'}]
+          }, {
+            'featureType': 'landscape',
+            'elementType': 'geometry',
+            'stylers': [{'visibility': 'on'}, {'color': '#fcfcfc'}]
+          }, {
+            'featureType': 'water',
+            'elementType': 'labels',
+            'stylers': [{'visibility': 'off'}]
+          }, {
+            'featureType': 'water',
+            'elementType': 'geometry',
+            'stylers': [{'visibility': 'on'}, {'hue': '#5f94ff'}, {'lightness': 60}]
+          }];
+
+
+        <% @country_data.each do |c| %>
+        <% num_clashes = 0 %>
+        <% url = "" %>
+               <% num_conflicts = c.conflicts.count() %>
+                <% c.conflicts.each do |conflict| %>
+                <% num_clashes += conflict.clashes.count() %>
+                  <% if num_clashes == 0 %>
+                    <% url = "/tran.png"  %>
+                   <% else %>
+                     <% url = "/pointer3.png" %>
+                   <% end %>
+                <% end %>
+
+
+
+
+var marker = new google.maps.Marker({
+  position: {lat: <%= c.lat %>, lng: <%= c.lon %>},
+  animation: google.maps.Animation.DROP,
+  map: map,
+  icon: {
+  url: "<%=  url %>",
+  //url: "/pointer3.png",
+
+  scaledSize: new google.maps.Size(35, 45)
+
+}
+}).addListener('click', function(){
+            new google.maps.InfoWindow({
+            content: '<div id="content">'+
+    '<div id="siteNotice">'+
+    '</div>'+
+    '<h3>' + '<%= link_to c.country, "/pinmap/#{c.id}" %>' +'</h3>'+
+    '<div id="bodyContent">'+'<span>'+'Number of conflicts: ' + '<%= num_conflicts %>' + '</span>'+ '<br>'+
+    '<span>'+'Number of clashes: '+'<%= num_clashes %>'+'</span>'+
+    '</div>'+
+    '</div>'
+        }).open(map, this);
+    });
+      <% end %>
+
+}
+
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXw9tFp-fQLKJtwb4F3-BVDx4XQZbj8vk&callback=initMap">
+    </script>
+    <script>
+      $(document).ready( function () {
+        $('#events').DataTable( {
+          stateSave: true
+      });
+
+      } );
+    </script>
+  </body>
+</html>

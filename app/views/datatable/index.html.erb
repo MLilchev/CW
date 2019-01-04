@@ -1,0 +1,52 @@
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+
+<!-- <a href="/heatmap.json" class="btn btn-primary" role="button">Get list JSON</a> -->
+
+<div class="row pagination">
+  <table id="clashes" class="table table-md table-bordered border"> <!--class="table table-md table-bordered border">-->
+    <thead class="thead-light">
+        <tr>
+            <th class="text-center text-nowrap">Conflict ID</th>
+            <th class="text-center text-nowrap">Conflict Name</th>
+            <th class="text-center text-nowrap">Side A</th>
+              <th class="text-center text-nowrap">Side B</th>
+          <th class="text-center text-nowrap">Source Name</th>
+          <th class="text-center text-nowrap">Source Headline</th>
+          <th class="text-center text-nowrap">Location</th>
+          <th class="text-center text-nowrap">Date Beginning</th>
+          <th class="text-center text-nowrap">Date End</th>
+          <th class="text-center text-nowrap">Deaths Side A</th>
+          <th class="text-center text-nowrap">Deaths Side B</th>
+          <th class="text-center text-nowrap">Deaths Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @clash_description.each do |cd| %>
+          <tr>
+            <td class="text-center text-nowrap page-item"><%= cd.conflict_id %></td>
+			      <td class="page-item"><%= cd.conflict_name %></td>
+            <td class="page-item"><%= cd.side_a %></td>
+            <td class="page-item"><%= cd.side_b %></td>
+            <td class="page-item"><%= cd.source_original %></td>
+            <td class="page-item"><%= cd.source_headline %></td>
+            <td class="page-item"><%= cd.location %></td>
+            <td class="page-item"><%= cd.date_start %></td>
+            <td class="page-item"><%= cd.date_end %></td>
+            <td class="text-center text-nowrap page-item"><%= cd.deaths_a %></td>
+            <td class="text-center text-nowrap page-item"><%= cd.deaths_b %></td>
+            <td class="text-center text-nowrap page-item"><%= cd.total_deaths %></td>
+          </tr>
+        <% end %>
+
+    </tbody>
+    </table>
+</div>
+
+<script>
+$(document).ready( function () {
+    $('#clashes').DataTable( {
+      stateSave: true
+    });
+
+} );
+</script>

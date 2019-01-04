@@ -1,0 +1,79 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+
+<!-- <p>
+  <strong>Crypted password:</strong>
+  <%= @user.crypted_password %>
+</p>
+
+<p>
+  <strong>Password salt:</strong>
+  <%= @user.password_salt %>
+</p>
+
+<p>
+  <strong>Persistence token:</strong>
+  <%= @user.persistence_token %>
+</p> -->
+
+<p>
+  <strong>First name:</strong>
+  <%= @user.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @user.last_name %>
+</p>
+
+<p>
+  <strong>Dob:</strong>
+  <%= @user.dob %>
+</p>
+
+<p>
+  <strong>Street:</strong>
+  <%= @user.street %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @user.city %>
+</p>
+
+<p>
+  <strong>Card type:</strong>
+  <%= @user.card_type %>
+</p>
+
+<p>
+  <strong>Card number:</strong>
+  <%= @user.card_number %>
+</p>
+
+
+  <div class="page-header"><h1>Welcome back!</h1></div>
+
+  <h2>Some info about you...</h2>
+
+  <div class="well well-lg">
+    <ul>
+      <li>Login count: <%= current_user.login_count %></li>
+      <li>Failed login count: <%= current_user.failed_login_count %></li>
+      <li>Last request: <%= current_user.last_request_at %></li>
+      <li>Current login at: <%= current_user.current_login_at %></li>
+      <li>Last login at: <%= current_user.last_login_at %></li>
+      <li>Current login IP: <%= current_user.current_login_ip %></li>
+      <li>Last login IP: <%= current_user.last_login_ip %></li>
+    </ul>
+  </div>
+
+
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

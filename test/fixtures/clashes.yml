@@ -1,0 +1,47 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  conflict_id: 1
+  conflict_name: MyString
+  dyad_name: MyString
+  side_a: MyString
+  side_b: MyString
+  source_article: MyString
+  source_office: MyString
+  source_date: MyString
+  source_headline: MyString
+  source_original: MyString
+  location: MyString
+  lat: 1.5
+  lon: 1.5
+  country: MyString
+  region: MyString
+  date_start: MyString
+  date_end: MyString
+  deaths_a: 1
+  deaths_b: 1
+  deaths_unknown: 1
+  total_deaths: 1
+
+two:
+  conflict_id: 1
+  conflict_name: MyString
+  dyad_name: MyString
+  side_a: MyString
+  side_b: MyString
+  source_article: MyString
+  source_office: MyString
+  source_date: MyString
+  source_headline: MyString
+  source_original: MyString
+  location: MyString
+  lat: 1.5
+  lon: 1.5
+  country: MyString
+  region: MyString
+  date_start: MyString
+  date_end: MyString
+  deaths_a: 1
+  deaths_b: 1
+  deaths_unknown: 1
+  total_deaths: 1

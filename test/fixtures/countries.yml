@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  country: MyString
+  country_formal: MyString
+  population: 1
+  gdp: 1
+  economy_type: MyString
+  income_level: MyString
+  region: MyString
+  lon: 1.5
+  lat: 1.5
+
+two:
+  country: MyString
+  country_formal: MyString
+  population: 1
+  gdp: 1
+  economy_type: MyString
+  income_level: MyString
+  region: MyString
+  lon: 1.5
+  lat: 1.5

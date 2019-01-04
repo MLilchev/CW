@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  author: MyString
+  year: 1
+  isbn: 
+  region: MyString
+  rating: 1.5
+  price: 1.5
+  image: MyString
+
+two:
+  title: MyString
+  author: MyString
+  year: 1
+  isbn: 
+  region: MyString
+  rating: 1.5
+  price: 1.5
+  image: MyString
